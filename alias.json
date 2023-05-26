@@ -1,0 +1,25 @@
+{
+    "name": "SharpNamedPipePTH",
+    "version": "v0.0.0",
+    "command_name": "sharpnamedpipepth",
+    "original_author": "S3cur3Th1sSh1t",
+    "repo_url": "https://github.com/blurbdust/SharpNamedPipePTH",
+    "help": "C# to PTH via named pipe",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "SharpNamedPipePTH.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "SharpNamedPipePTH.exe"
+      }
+    ]
+  }
